@@ -14,5 +14,5 @@ The Last Warlock is the shooting role playing game. In this game your name is T-
 ## Download
 You can git clone or download zip and play this game in .jar file at folder TheLastWarlock.
 
-## Who make this game
+## Contributors
 Sujinunt ID.6010545951
