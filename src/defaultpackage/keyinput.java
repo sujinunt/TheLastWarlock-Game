@@ -34,7 +34,7 @@ public class keyinput extends KeyAdapter{
                                     AudioPlayer.getSound("click").play();
                                     handler.clear();
                                     Game.state = Game.STATE.GAME;
-                                    level = loader.loadImage("/src/res/MazeMap.png"); 
+                                    level = loader.loadImage("/res/MazeMap.png"); 
                                     game.loadLevel(level);
                                     game.hp =100;
                                     game.ammo=50;
@@ -45,7 +45,7 @@ public class keyinput extends KeyAdapter{
                                     AudioPlayer.getSound("click").play();
                                     handler.clear();
                                     Game.state = Game.STATE.Menu;
-                                    level = loader.loadImage("/src/res/MazeMap.png"); 
+                                    level = loader.loadImage("/res/MazeMap.png"); 
                                     game.loadLevel(level);
                                     game.storyy =-1;
                                     game.hp =100;
@@ -65,7 +65,7 @@ public class keyinput extends KeyAdapter{
                                    AudioPlayer.getSound("click").play();
                                     handler.clear();
                                     Game.state = Game.STATE.GAME;
-                                    level = loader.loadImage("/src/res/MazeMap.png"); 
+                                    level = loader.loadImage("/res/MazeMap.png"); 
                                     game.loadLevel(level);
                                     game.hp =100;
                                     game.ammo=50;
@@ -77,7 +77,7 @@ public class keyinput extends KeyAdapter{
                                     AudioPlayer.getSound("click").play();
                                     handler.clear();
                                     Game.state = Game.STATE.Menu;
-                                    level = loader.loadImage("/src/res/MazeMap.png"); 
+                                    level = loader.loadImage("/res/MazeMap.png"); 
                                     game.loadLevel(level);
                                     game.storyy =-1;
                                     game.hp =100;
