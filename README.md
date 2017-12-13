@@ -12,7 +12,7 @@ The Last Warlock is the shooting role playing game. In this game your name is T-
 ![8pickuppotion](https://user-images.githubusercontent.com/32285747/33953270-03faf5ee-e067-11e7-9fd5-27ff55ddfd01.png)
 
 ## Download
-
+You can git clone or download zip and play this game in .jar file at folder TheLastWarlock.
 
 ## Who make this game
 Sujinunt ID.6010545951
