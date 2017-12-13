@@ -36,7 +36,7 @@ public class Story {
 	
 
 	public void render(Graphics g) {
-                Warlock = loader.loadImage("/src/res/warlock.png");//use to load image
+                Warlock = loader.loadImage("/res/warlock.png");//use to load image
 	        warlock = new SpriteSheet(Warlock);//use to load image
                 warlock_image = warlock.grabImage(1, 1, 280, 500);//use to load image
                 
