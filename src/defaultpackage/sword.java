@@ -18,7 +18,7 @@ public class sword extends GameObject{
     public sword(int x, int y, ID id, SpriteSheet ss, SpritSheetPlant ssp) {
         super(x, y, id, ss, ssp);
         this.handler = handler;
-        Sword = loader.loadImage("/src/res/Accweapon.png");//use to load image
+        Sword = loader.loadImage("/res/Accweapon.png");//use to load image
 	sword = new SpriteSheet(Sword);//use to load image
         sword_image[0] = sword.grabImage(1, 1, 32, 32);//use to load image
 	sword_image[1] = sword.grabImage(2, 1, 32, 32);//use to load image
