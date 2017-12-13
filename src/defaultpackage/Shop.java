@@ -22,7 +22,7 @@ public class Shop {
         }
 
 	public void render(Graphics g) {
-                Fairy = loader.loadImage("/src/res/fairy.png");//use to load image
+                Fairy = loader.loadImage("/res/fairy.png");//use to load image
 	        fairy = new SpriteSheet(Fairy);//use to load image
                 fairy_image = fairy.grabImage(1, 1, 780, 590);//use to load image
             
