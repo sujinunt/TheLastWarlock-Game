@@ -85,12 +85,12 @@ public Game() {
 	this.addKeyListener(new keyinput(handler,camera,this,ss));
 	
 	BufferedImageLoader loader = new BufferedImageLoader();
-	level = loader.loadImage("/src/res/MazeMap.png"); //load map naja
+	level = loader.loadImage("/res/MazeMap.png"); //load map naja
         //level2 = loader.loadImage("leveldesign01.png");
-	sprite_sheet = loader.loadImage("/src/res/sprite_sheet.png");//load picture
+	sprite_sheet = loader.loadImage("/res/sprite_sheet.png");//load picture
 	ss = new SpriteSheet(sprite_sheet);
 	floor = ss.grabImage(5, 2, 32, 32);
-	Spritsheetplant = loader.loadImage("/src/res/Spritsheetplant.png");
+	Spritsheetplant = loader.loadImage("/res/Spritsheetplant.png");
 	ssp = new SpritSheetPlant(Spritsheetplant);
 	
 	this.addMouseListener(new MouseInput(handler,camera,this,ss,ssp));
